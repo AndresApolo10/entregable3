@@ -1,0 +1,84 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em; 
+    background-color: sienna;   
+    font-size: 30px;
+}
+
+.img__head{
+   min-width: 100vh;
+}
+
+.form input{
+    font-size: 30px;
+    max-width: 100vh;
+    background-color: sandybrown;
+}
+
+.form button{
+    font-size: 30px;
+    background-color: sienna;
+    color: black;
+    font-weight: bold;
+}
+
+.title__info{
+    text-align: center;
+}
+
+.ul__info{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.App2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card{
+    display: flex;
+    gap: 1em;
+    width: max-content;
+    background-color: sandybrown;
+    border-radius: 1em;
+    overflow: hidden;
+    padding: 0.5em;
+}
+
+.head__img img{
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 1em;
+}
+
+.ul__card{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.card__info{
+    font-size: 20px;
+}
+
+.ul__card h4{
+    color: brown;
+}
+
+span{
+    font-weight: bold;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vh;
+}
