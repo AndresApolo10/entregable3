@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <img className='img__head' src="/images/Apprickymorty.jpg" alt="RickandMorty Logo" />
+      <img className='img__head' src="/images/App/rickymorty.jpg" alt="RickandMorty Logo" />
       <h1>Rick and Morty Wiki</h1>
       <form className='form' onSubmit={handdleSubmit}>
         <input id='search' type="text" />
